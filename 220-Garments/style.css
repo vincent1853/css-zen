@@ -1,0 +1,464 @@
+html{
+	  font-size: 62.5%;
+}
+body{
+	font-family: Helvetica,Arial, sans-serif;
+	padding:0;
+	margin:0;
+    background:#e8ecf0 url(images/denim2.png) no-repeat 50% 350px;	
+	color:#333;
+}
+
+.page-wrapper { width: 90%; margin: 0 auto; }
+
+a {
+  text-decoration: none;
+  color: #a28351;
+  position: relative;
+}
+p{ font-size: 16px; margin: 0 0 1.5em; }
+
+.main p, .preamble p { font-size: 2rem; }
+h3 { font: bold 1.5rem Helvetica, Arial, sans-serif; margin: 0 0 1em; }
+.wf-active .main h3, .wf-active .preamble h3 { font-weight: 900; }
+
+.requirements a:hover, .participation a:hover,footer a:hover{
+	color: #000;
+	border-bottom:solid #a28351;
+	opacity:1;	
+}
+::selection {
+  background: #d5d9dc;
+  color: #333;
+}
+.zen-resources a:after {
+  background-color: #a28351;
+  content: "";
+  display: block;
+}
+
+.intro:before {
+  content: "";
+  display: block;
+  width: 105px;
+  height: 30px;
+  position: fixed;
+  top: 154px;
+  left: 3%;
+  background: transparent url(images/czg.svg) no-repeat -184px -99px;
+}
+
+.page-wrapper{
+	width:90%;
+	margin:0 auto;
+}
+
+.intro{
+	
+}
+
+.intro h1::before{
+	content: "CSS Zen Garments";
+	display: block;
+	visibility:visible;
+	
+}
+.intro h1{
+	font: bold 4.2rem Helvetica, Arial, sans-serif;
+	visibility: hidden;
+}
+
+h1:after {
+  content: "Made Locally";
+  visibility: visible;
+  display: block;
+  color: #aaa;
+  letter-spacing: 0.5em;
+  font-size: 1.4rem;
+  font-weight: normal;
+  margin: 0.5em 0 3em;
+  color: rgba(24, 46, 79, 0.4);
+}
+.summary p{
+  font-size: 1.8rem;
+  line-height: 1.6;
+  text-transform:uppercase;
+  letter-spacing: 0.1em;
+  font-weight: normal;
+  font-family: "effra";
+}
+
+.summary p:nth-child(2) {
+  background: yellow;
+  position: relative;
+  visibility: hidden;
+  top: 2em;
+  font-size: 1.4rem;
+}
+
+.summary p:nth-child(2):before {
+  content: "";
+  display: block;
+  visibility: visible;
+  position: absolute;
+  right: 21em;
+  top: -0.25em;
+  background: transparent url(images/czg.svg) no-repeat -159px -1px;
+  width: 6em;
+  height: 30px;
+}
+
+.summary p:nth-child(2) a {
+  visibility: visible;
+  background: transparent url(images/czg.svg) no-repeat -376px -93px;
+  width: 6em;
+  height: 25px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 7em;
+}
+
+.summary p:nth-child(2) a[href*="css"] {
+  background-position: -472px -94px;
+  right: 0;
+}
+
+.summary p:nth-child(2):after {
+  content: "";
+  display: block;
+  visibility: visible;
+  position: absolute;
+  right: 14em;
+  top: -0.25em;
+  background: transparent url(images/czg.svg) no-repeat -277px 0;
+  width: 6em;
+  height: 30px;
+}
+
+#zen-preamble{
+  padding-top: 10em;
+}
+
+#zen-preamble p{
+	font-size: 2rem;
+	font-weight:300;
+	line-height: 1.4;
+}
+[role="banner"], footer {
+  padding: 0 30% 10em 10%;
+  text-align: right;
+  position: relative;
+}
+
+[role="article"] h3, [role="banner"] h2 {
+  position: absolute;
+  top: -0.75em;
+  left: 75%;
+  width: 10em;
+  text-align: left;
+  font-size: 1.5rem;
+  letter-spacing: 0;
+}
+
+.preamble {
+  background: transparent url(images/sep.png) no-repeat 50% 0;
+  font-size: 2rem;
+}
+.preamble p{
+	line-height: 1.4;
+	font-weight: 300;
+	font-family: "effra";
+}
+
+#zen-preamble h3 { top: 5.9em; }
+
+
+.main{
+	
+}
+.main p{
+	font-family: "affra";
+	font-size: 2rem;
+	line-height:1.4;
+	display:block;	
+}
+
+[role="article"], [role="banner"], footer {
+  padding: 0 30% 10em 10%;
+  text-align: right;
+  position: relative;
+}
+
+[role="article"] h3, [role="banner"] h2 {
+  position: absolute;
+  top: -0.75em;
+  left: 75%;
+  width: 10em;
+  text-align: left;
+  font-size: 1.5rem;
+  letter-spacing: 0;
+}
+[role="banner"], footer {
+  padding: 0 30% 10em 10%;
+  text-align: right;
+  position: relative;
+}
+
+[role="banner"] { 
+  padding-top: 200px; 
+  padding-bottom: 3em; 
+}
+
+[role="banner"] h2 { 
+  position: absolute; 
+  top: -0.75em; 
+  left: 75%; 
+  width: 10em; 
+  text-align: left; 
+  font-size: 1.5rem; 
+  letter-spacing: 0; 
+}
+
+[role="banner"] h2 { 
+    display: block; 
+	top: 8.1em; 
+	width: 3em; 
+	left: 75.5%; 
+	font-size: 1.9rem; 
+	line-height: 1; 
+}
+[role="banner"] h2:before { 
+	visibility: visible; 
+	content: "Est. 2003"; 
+	display: block; 
+	position: fixed; 
+	top: -0.1em; 
+	bottom: 0; 
+	left: -0.5em; 
+	right: 0; m
+	argin: auto; /*right: 25%;*/ 
+	font-weight: 900; 
+	font-size: 50rem; 
+	color: rgba(0, 0, 0, 0.15); 
+	width: 100%; 
+	height: 2em; 
+	line-height: 1; 
+	transform: rotate(-90deg); 
+	-ms-transform: rotate(-90deg); /* IE 9 */ 
+	-webkit-transform: rotate(-90deg); /* Safari and Chrome */ 
+	-webkit-mask-image: url(images/denim-mask2.png); 
+	-o-mask-image: url(images/denim-mask2.png); 
+	-moz-mask-image: url(images/denim-mask2.png); 
+	mask-image: url(images/denim-mask2.png); 
+}
+
+.explanation{
+	
+}
+
+.participation{
+	
+}
+
+.benefits{
+	
+}
+
+.requirements{
+	
+}
+
+footer{
+	
+}
+
+article, aside, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+.sidebar{
+	
+}
+.design-selection ul{
+	list-style:none;
+	display:block;
+	margin: 0 auto;
+	width:94%;
+}
+.design-selection li{
+	float:left;
+	font-size:1.2rem;
+	margin: 0 0 1em;
+	display: list-item;
+	margin-bottom: 3em;
+	padding-right: 2%;
+	width:23%;
+}
+.design-selection li:nth-child(odd){
+	width: 23%;
+	padding-right:2%;
+	clear: none;
+}
+.design-selection a{
+	text-decoration: none;
+    
+}
+.design-selection ul:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.design-name{
+	text-transform:uppercase;
+	color: #a28351;
+	margin: 0 0 0.24em;
+	display:block;
+	position: relative;
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+.designer-name {
+	color:#7989a3;
+}
+
+.archives, .resources {
+  position: absolute;
+  left: -9999px;
+}
+
+.design-archives ul {
+  //list-style: none;
+  //margin: 1em 0 0;
+  //width: 100%;
+  text-align: center;
+}
+.design-archives li {
+  display: inline-block;
+  position: relative; 
+}
+
+.design-archives a {
+  display: block;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.next {
+  margin-right: 2em;
+  margin-left: -0.4em;
+}
+.next a {
+  background: transparent url(images/czg.svg) no-repeat 10px -56px;
+  width: 43px;
+  height: 37px;
+}
+
+.viewall a {
+  background: transparent url(images/czg.svg) no-repeat -56px -55px;
+  width: 39px;
+  height: 39px;
+}
+.zen-resources ul{
+	list-style:none;
+	margin: 2em 0 4em;
+	text-align:center;
+}
+.zen-resources li{
+	display:inline-block;
+	margin: 0 0 1em 3em;
+}
+.zen-resources li:first-child {
+  margin-left: 0;
+}
+.zen-resources a {
+  display: inline-block;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background: transparent url(images/czg.svg) no-repeat 0 0;
+  width: 60px;
+  height: 60px;
+}
+
+.summary p:nth-child(2) a:hover, .summary p:nth-child(2) a:focus {
+  background-position: -396px -3px; 
+  text-indent: 0; 
+  background: none; 
+  color:#000;
+}
+
+.next a:hover, .next a:focus { 
+background-position: 10px -138px; 
+}
+
+.viewall a:hover, .viewall a:focus { 
+background-position: -56px -137px; 
+}
+.view-css a {
+  background-position: -502px 12px;
+}
+.view-css a:hover, .view-css a:focus { 
+  background-position: -502px -78px; 
+  }
+  
+.css-resources a {
+  background-position: -150px -194px;
+}
+
+.css-resources a:hover, .css-resources a:focus { 
+  background-position: -150px -286px; 
+}
+.zen-faq a {
+  background-position: -265px -192px;
+}
+
+.zen-faq a:hover, .zen-faq a:focus { 
+  background-position: -265px -284px; 
+}
+.zen-submit a {
+  background-position: -502px -194px;
+}
+
+.zen-submit a:hover, .zen-submit a:focus { 
+  background-position: -502px -286px; 
+}
+
+.zen-translations a {
+  background-position: -380px -193px;
+}
+
+.zen-translations a:hover, .zen-translations a:focus { 
+  background-position: -380px -285px; 
+}
+
+.preamble h3:after { visibility: visible; content: "A Fashion-Forward Future";  }
+.explanation h3:after { content: "See Yourself in a Different Way";  }
+.participation h3:after { content: "Get Into a Brand New Pair";  }
+.benefits h3:after { content: "Look Great\2026  and Feel Great Too!";  }
+.requirements h3:after { content: "“One Size Fits” All Be Damned!"; text-indent: -0.5em; }
+
+.design-selection {
+  margin: 3em 0 0;
+}
+.select {
+  visibility: hidden;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #263358;
+  margin: 0 0 1rem;
+ 
+}
+
+.select:after { content: "Washes & Styles"; font-size: 1.8rem;
+ text-align: center; 
+ width: 7em; margin: 0 auto 2em; 
+ background: transparent url(images/waves.png) no-repeat 50% 0; 
+ padding: 2em 8em 0; color: #182e4f; visibility: visible; 
+ display: block;
+}
