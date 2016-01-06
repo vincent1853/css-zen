@@ -221,6 +221,7 @@ body{
 	width:160px;
 	height:104px;
 	padding:4px;
+	border:none; /*IE8会有黑框，用于去除黑框*/
 	//position:relative;
 }
 .row span{
@@ -342,7 +343,17 @@ body{
 	background-color:#fff;
 }
 
+.zenbook h2{
+	font-size:13px;
+	font-weight:500;
+}
+
+.zenbook h3{
+	font-size:1em;
+	color:#364126;
+}
 .zenbook img{
+	border:none; /*IE8会有黑框，用于去除黑框*/
 	position: absolute;
 	top: 10px;
 	right: 10px;
