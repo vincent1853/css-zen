@@ -1,0 +1,138 @@
+body{
+  padding:0;
+  margin:0;
+  background-color:#DFDBD2;
+  color: #4C4C4C;
+  font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+
+p{
+  font-size: .8em;
+  line-height: 2em;
+}
+
+h3 {
+  font-size: .7em;
+  font-weight: bold;
+  line-height: 1.3em;
+}
+
+.main h3 {
+  padding-top:1em;
+}
+
+.preamble a,.explanation a,.participation a,.benefits a,.requirements a{
+	text-decoration:none;
+	color:#5D7403;
+	background-color:#EBF3CE;
+}
+
+.preamble a:hover,.explanation a:hover,.participation a:hover,.benefits a:hover,.requirements a:hover{
+	background-color:#B7FF4A;
+}
+.explanation{
+	border-top:1px solid #e0e0e0;
+}
+.explanation,.participation,.benefits,.requirements{
+	padding-left:10px;
+	padding-right:50px;
+	border-bottom:1px solid #E0E0E0;
+}
+
+
+.summary p:nth-child(2):before{
+	position:relative;
+	display:block;
+	content:'';
+	height:26px;
+	width:260px;
+	margin-left:-30px;
+	margin-bottom:20px;
+	background:#B2AC9E url(images/nav_dl.gif) no-repeat 0 0;
+}
+.summary p:nth-child(2){
+	color:#4C4C4C;
+	font-weight:bold;
+	line-height:1.5em;
+	background-color:#B2AC9E;	
+}
+
+.summary p:nth-child(2) a{
+	color:#dcdcdc;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+.summary p:nth-child(2) a:hover{
+	background-color:#B7FF4A;
+}
+
+footer a{
+	text-decoration:none;
+	color:#4C4C4C;
+	font-size:.75em;
+}
+.sidebar{
+	font: .6em/1.4em verdana, sans-serif;
+	padding-bottom:130px;
+}
+
+.sidebar a:hover{
+	background-color:#B7FF4A;
+}
+.design-selection ul{
+	padding-right:50px;
+	list-style-image:url("images/navico.gif");
+	
+}
+
+.design-selection li{
+	color:#dcdcdc;
+	font-size:12px;
+	line-height:1.4em;
+	padding-top:.5em;
+	padding-bottom:.5em;
+	border-bottom:1px solid #dcdcdc;
+}
+
+
+.design-name{
+	font-weight:bold;
+	color:#4C4C4C;
+}
+
+.designer-name{
+	color:#dcdcdc;
+}
+.select{
+	color:rgba(255,255,255,0);
+	height:26px;
+	background:#B2AC9E url(images/nav_des.gif) no-repeat 0 0;
+}
+
+.archives{
+	color:rgba(255,255,255,0);
+	height:26px;
+	background:#B2AC9E url(images/nav_arch.gif) no-repeat 0 0;
+}
+
+.resources{
+	color:rgba(255,255,255,0);
+	height:26px;
+	background:#B2AC9E url(images/nav_res.gif) no-repeat 0 0;
+}
+
+.select{
+	color:rgba(255,255,255,0);
+	height:26px;
+	background:#B2AC9E url(images/nav_des.gif) no-repeat 0 0;
+}
+
+.zen-resources li,.design-archives li{
+	list-style:none;
+	padding:6px 0 6px 0;
+}
+.zen-resources a,.design-archives a{
+	color:#4C4C4C;
+	font-weight:bold;
+}

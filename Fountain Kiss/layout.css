@@ -1,0 +1,309 @@
+body{
+   background:#fff url(images/kiss.jpg) no-repeat fixed top;
+   z-index:-1;
+}
+
+
+
+.page-wrapper{
+	position:absolute;
+	left:7.5em;
+	//width:460px;
+	background:#fceec6 url(images/kiss_light.jpg) no-repeat fixed 50% top;
+	z-index:1;
+}
+header h1{
+	position:fixed;
+	left:-10px;
+	width:1em;
+	display:block;
+}
+header h2{
+	width:8em;
+	display:block;
+	position:fixed;
+	right:1.75em;
+	top:2em;
+}
+.summary{
+	width:25em;
+	position:fixed;
+	bottom:0;
+	right:1.25em;
+	
+}
+
+
+.summary p:first-child{
+	-webkit-border-top-left-radius: 50%;
+	-webkit-border-top-right-radius: 50%;
+	display:block;
+	margin-top:30px;
+	margin-bottom:0;
+	padding: 30px .5em 1em;
+	
+}
+
+
+.summary p:nth-child(2){
+	display:block;
+	margin:0;
+	padding:.4em 0 .4em 0;
+	border-top:1px solid rgba(255,255,255,0.6);
+	border-bottom:1px solid rgba(255,255,255,0.6);
+	
+}
+
+.summary p:nth-child(2):after{
+	content:' ';
+	display:block;
+	height:11px;
+	margin:0;
+	border-top:1px solid rgba(255,255,255,0.6);
+	//padding:.5em 0 .5em 0;
+}
+.intro{
+	padding-left:50px;
+	padding-right:50px;
+   padding-top:80px;
+   padding-bottom:80px;
+	margin-left:-50px;
+	margin-right:-50px;
+	border-radius:50%;
+}
+.preamble{
+	position:relative;
+	//left:5.5em;
+	width:340px;
+	text-align: center;
+	padding:0 60px;
+	//z-index:2;
+}
+
+.preamble h3:before{
+	display:block;
+	content:"when walking on";
+	position:relative;
+	width:380px;
+	//margin-left:80px;
+}
+
+.preamble h3{
+	display:block;
+	//margin-left:30px;
+}
+.preamble h3:after{
+	display:block;
+	content:"don't forget to kiss a stranger.";
+	position:relative;
+	width:380px;
+	//margin-left:10px;
+}
+
+.preamble p:nth-child(2):before{
+	content:' ';
+	width:60px;
+	height:60px;
+	margin-top:-16px;
+	margin-left:130px;
+	margin-bottom:16px;
+	display:block;
+}
+.main{
+	position:relative;
+	//left:5.5em;
+	width:460px;
+}
+
+.main p{
+	margin-left:38px;
+	margin-right:38px;
+}
+.explanation h3:before{
+	content:"she asked";
+	display:block;
+}
+.explanation h3{
+	position:relative;
+	display:block;
+	text-align:left;
+	padding:30px 296px 16px 20px;
+	z-index:3;
+}
+
+.participation h3:before{
+	content:"he requestd her";
+	display:block;
+}
+.participation h3{
+	position:relative;
+	display:block;
+	text-align:right;
+	padding:30px 20px 45px 20px;
+	z-index:3;
+}
+
+.benefits h3:before{
+	content:"they became friends with ";
+	display:block;
+}
+
+.benefits h3{
+	position:relative;
+	display:block;
+	text-align:left;
+	padding:30px 290px 20px 20px;
+	z-index:3;
+}
+
+.requirements h3:before{
+	content:"before long,though,";
+	display:block;
+}
+
+.requirements h3{
+	position:relative;
+	display:block;
+	text-align:right;
+	padding:30px 20px 20px 20px;
+	z-index:3;
+}
+
+.requirements h3:after{
+	content:"had crept in";
+	display:block;
+}
+
+footer:before{
+	content:"..and all because of a";
+	position:relative;
+	display:block;
+	text-align:right;
+	height:70px;
+	padding:30px 20px 20px 20px;
+	z-index:3;
+}
+
+footer{
+	//position:absolute;
+	width:460px;
+	z-index:3;
+}
+footer:after{
+	content:"fountain kiss";
+	position:relative;
+	padding-right:20px;
+	top:-80px;
+	text-align:right;
+	display:block;
+	z-index:3;
+}
+
+footer a{
+	display:inline-block;
+	margin-top:20px;
+}
+.design-selection{
+	position:relative;
+	margin-top:-20px;
+	//left:5.5em;
+	width:460px;
+}
+
+.select,.archives,.resources{
+	position:relative;
+	display:block;
+	text-align:center;
+	padding:30px 20px 16px 20px;
+	z-index:3;
+}
+
+.design-selection ul{
+	list-style:none;
+	text-align:right;
+	padding-right:20px;
+}
+
+.design-name{
+	float:left;
+}
+.design-archives{
+	position:relative;
+	//left:5.5em;
+	width:460px;
+}
+
+
+
+.design-archives ul{
+	text-align:center;
+}
+.design-archives li{
+	list-style:none;
+}
+.next{
+	float:right;
+}
+.zen-resources{
+	position:relative;
+	//left:5.5em;
+	width:460px;
+}
+
+
+.zen-resources li{
+	list-style:none;
+}
+
+
+.view-css:before{
+	display:inline-block;
+	margin-right:40px;
+	content:' ';
+	width:3em;
+	height:1em;
+	border-top:2px solid rgba(136,0,68,0.2);
+}
+
+.view-css{
+	display:inline-block;
+}
+
+.view-css:after{
+	display:inline-block;
+	margin-left:40px;
+	content:' ';
+	width:3em;
+	height:1em;
+    border-top:2px solid rgba(136,0,68,0.2);
+}
+.css-resources{
+	display:inline-block;
+	margin-right:165px;
+}
+
+.zen-submit{
+	display:inline-block;
+	margin-right:80px;
+}
+
+.zen-faq,.zen-translations{
+	display:inline-block;
+	margin-left:80px;
+	text-align:left;
+}
+.zen-resources:after{
+	content:"";
+	position:relative;
+	display:block;
+	//text-align:center;
+	padding:30px 20px 10px 20px;
+	z-index:3;
+}
+
+
+
+
+
+
+

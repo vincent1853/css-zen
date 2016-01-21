@@ -1,0 +1,247 @@
+body{
+  margin:0;
+  padding:0;
+  //-webkit-font-smoothing:antialiased;
+  font-family: Georgia, serif;
+  line-height: 1.4;
+}
+
+
+/*  Ultra & Montserrat: a charming pair. */
+
+/*color and font set*/
+
+body, .preamble h3 {
+    color: #724;
+}
+
+
+.participation a,.requirements a{
+	color:#804;
+	font-weight:500;
+	text-transform: uppercase;
+	text-decoration:none;
+}
+
+.participation a:hover,.requirements a:hover{
+	color:#000;
+}
+a:link{
+	color: #804;
+}
+
+header h1{
+	font-size:3em;
+	font-weight:bold;
+	text-align: center;
+	line-height:0.75;
+    text-transform: uppercase;
+	color:#fff;
+	word-wrap:break-word;
+	
+}
+header h2{
+	font-size:2em;
+	font-weight:700;
+	color:#fff;
+	font-family: 'Ultra', 'Arial Black', serif;
+	text-shadow:2px 2px 2px rgba(68,0,32,0.6);
+}
+.summary{
+	color:#fff;
+	font-size:0.75em;
+}
+
+.summary p:first-child{
+	background-color:#5b0a2a;
+}
+
+.summary p:nth-child(2){
+	background-color:#5b0a2a;
+}
+
+.summary p:nth-child(2) a{
+	color:#fff;
+	font-weight:bold;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+.summary p:nth-child(2) a:hover{
+	text-shadow:1px 1px 0 rgba(255,255,255,1);
+}
+
+.intro{
+	background-color:rgba(250,223,154,0.6);
+}
+.preamble {
+	//background-color:#fceec6;
+	//opacity:0.4;
+}
+
+.preamble p{
+	font-size:12px;
+}
+
+.preamble h3:before{
+	font-family:Georgia,Arial;
+	font-weight:400;
+}
+
+.preamble h3:after{
+	font-family:Georgia,Arial;
+	font-weight:400;
+}
+
+.preamble p:nth-child(2):before{
+	background:rgba(250,223,154,0) url(images/heart-and-lips.png) no-repeat 0 -440px;
+}
+.main{
+	//background-color:#fceec6;
+	//opacity:0.4;
+}
+
+.supporting p:nth-child(2)::first-letter{
+	font-family: 'Ultra', 'Arial Black', serif;
+	-webkit-font-smoothing:antialiased;
+	font-size: 2.8em;
+	line-height:0.8;
+	float:left;
+	margin-left:-0.1em;
+	color: #804;
+}
+.explanation h3{
+	color:#fff;
+	font-size:1.1875em;
+    font-family: 'Ultra', 'Arial Black', serif;
+	font-weight:normal;
+	background:#880044 url(images/story.gif) no-repeat 180px -10px;
+}
+
+.participation h3:before,.explanation h3:before,.benefits h3:before,.requirements h3:before,.requirements h3:after{
+	color:#fff;
+	font-family: Georgia;
+    font-style: italic;
+}
+.participation h3{
+	color:#fff;
+	font-size:1.1875em;
+    font-family: 'Ultra', 'Arial Black', serif;
+	font-weight:normal;
+	background:#880044 url(images/story.gif) no-repeat -695px 0;
+}
+
+.benefits h3{
+	color:#fff;
+	font-size:1.1875em;
+    font-family: 'Ultra', 'Arial Black', serif;
+	font-weight:normal;
+	background:#880044 url(images/story.gif) no-repeat -1325px 0;
+}
+
+.requirements h3{
+	color:#fff;
+	font-size:1.1875em;
+    font-family: 'Ultra', 'Arial Black', serif;
+	font-weight:normal;
+	background:#880044 url(images/story.gif) no-repeat -2320px 0;
+}
+
+footer:before{
+	color:#fff;
+	font-family: Georgia;
+    font-style: italic;
+	background:#880044 url(images/story.gif) no-repeat -2980px 0;
+}
+
+footer{
+	background-color:#41071F;
+	text-align:center;
+}
+
+footer:after{
+	color:#fff;
+	font-size:1.1875em;
+	font-weight:normal;
+    font-family: 'Ultra', 'Arial Black', serif;
+}
+
+footer a{
+	font-family: 'Ultra', 'Arial Black', serif;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+	text-transform: lowercase;
+	text-decoration:none;
+}
+
+footer a:hover{
+	color:#fff;
+}
+footer li{
+	//margin-top:10px;
+}
+.design-name{
+	color: #935;
+}
+
+.select,.archives,.resources{
+	font-family: 'Ultra', 'Arial Black', serif;
+	color:#fff;
+	font-weight:normal;
+	background:#5b0a2a url(images/border.png) no-repeat 50px -112px;
+}
+
+.sidebar a:link{
+	text-decoration:none;
+	color: #550028;
+}
+
+.sidebar a:hover{
+	color: #000;
+}
+
+.viewall a{
+	color:#935;
+	font-size:0.75em;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+.css-resources a,.zen-submit a{
+	color:#935;
+	font-size:0.75em;
+	text-transform:uppercase;
+	font-weight:bold;
+	text-shadow:1px 1px 0 rgba(255,255,255,0.5);
+}
+
+.zen-faq a{
+	color:#935;
+	font-size:0.75em;
+	font-weight:bold;
+	text-shadow:1px 1px 0 rgba(255,255,255,0.5);
+}
+
+.zen-translations a{
+	color:#550028;
+	font-size:0.75em;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+.design-selection a{
+	text-decoration:none;
+	text-shadow: 2px 2px 0 rgba(255,255,255,0.51);
+	
+}
+
+.zen-resources:after{
+	background:#5b0a2a url(images/border.png) no-repeat 50px 0;
+}
+
+
+
+
+
+
+
+
+
