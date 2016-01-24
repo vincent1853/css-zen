@@ -1,0 +1,226 @@
+body{
+    margin:0;
+	padding:0;
+	font-family:Verdana; 
+	font-size:11px;
+	width:1972px;
+	height:700px;
+	background:url(images/bg.gif) no-repeat top left;
+	color:#333;
+}
+
+
+a{
+	color:#075E7B;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+a:hover{
+	color:#737373;
+	text-decoration:underline;
+	
+}
+
+.preamble p,.supporting p{
+	margin-left:15px;
+}
+.designer-name{
+	font-weight:300;
+}
+
+.design-archives a,.zen-resources a{
+	font-weight:400;
+}
+
+
+.preamble h3,.explanation h3,.participation h3,.benefits h3,.requirements h3{
+	margin-bottom:0;
+}
+
+.intro h1{
+	position:absolute;
+	top:150px;
+	left:25px;
+	width:278px;
+	height:186px;
+	text-indent:100%;
+	white-space:nowrap;
+	overflow:hidden;
+	background:url(images/tit.gif) no-repeat;
+}
+
+.intro h2{
+	position:absolute;
+	top:30px;
+	left:225px;
+	width:193px;
+	height:18px;
+	text-indent:100%;
+	white-space:nowrap;
+	overflow:hidden;
+	background:url(images/cat.gif) no-repeat;
+}
+.summary{
+	position:absolute;
+	top:55px;
+	left:225px;
+	width:300px;
+}
+.preamble{
+	position:absolute;
+	top:0;
+	left:560px;
+	width:260px;
+	background-color:rgba(255,255,255,0.7);
+}
+
+.preamble h3{
+	height:25px;
+	text-indent:100%;
+	white-space:nowrap;
+	overflow:hidden;
+	background:url(images/read.gif) no-repeat;
+    opacity:0.7;	
+}
+.explanation{
+	position:absolute;
+	top:380px;
+	left:775px;
+	width:300px;
+	background-color:rgba(255,255,255,0.7);
+}
+
+.participation{
+	position:absolute;
+	top:0;
+	left:1060px;
+	width:300px;
+	background-color:rgba(255,255,255,0.7);
+}
+
+.benefits{
+	position:absolute;
+	top:470px;
+	left:1255px;
+	width:300px;
+	background-color:rgba(255,255,255,0.7);
+}
+
+.requirements{
+	position:absolute;
+	top:0;
+	left:1595px;
+	width:300px;
+	background-color:rgba(255,255,255,0.7);
+}
+
+.explanation h3{
+	height:25px;
+	text-indent:100%;
+	white-space:nowrap;
+	overflow:hidden;
+	background:url(images/head_explanation.gif) no-repeat;
+	opacity:0.7;	
+}
+
+.participation h3{
+	height:25px;
+	text-indent:100%;
+	white-space:nowrap;
+	overflow:hidden;
+	background:url(images/head_participation.gif) no-repeat;
+	opacity:0.7;	
+}
+
+.benefits h3{
+	height:25px;
+	text-indent:100%;
+	white-space:nowrap;
+	overflow:hidden;
+	background:url(images/head_benefits.gif) no-repeat;
+	opacity:0.7;
+}
+
+.requirements h3{
+	height:25px;
+	text-indent:100%;
+	white-space:nowrap;
+	overflow:hidden;
+	background:url(images/head_requirements.gif) no-repeat;
+	opacity:0.7;
+}
+
+footer{
+	position:absolute;
+	left:1610px;
+	top:665px;
+	width:300px;
+}
+
+.sidebar ul{
+	padding-left:20px;
+	margin-top:0;
+	margin-bottom:0;
+}
+
+.sidebar li{
+	list-style:none;
+}
+
+.design-selection li{
+	margin-bottom:5px;
+}
+.design-selection{
+	position:absolute;
+	top:185px;
+	left:360px;
+	width:150px;
+	background-color:rgba(255,255,255,0.7);
+}
+
+.design-archives{
+	position:absolute;
+	left:25px;
+	top:460px;
+	width:270px;
+	background-color:rgba(255,255,255,0.7);
+}
+
+.zen-resources{
+	position:absolute;
+	top:535px;
+	left:45px;
+	width:275px;
+	background-color:rgba(255,255,255,0.7);
+}
+
+.design-selection h3,.design-archives h3,.zen-resources h3{
+	margin-top:0;
+	margin-bottom:8px;
+	height:19px;
+	text-indent:100%;
+	white-space:nowrap;
+	overflow:hidden;
+}
+
+.design-selection h3{
+	background:url(images/head_select.gif) no-repeat;
+}
+
+.design-archives h3{
+	background:url(images/head_archives.gif) no-repeat;
+}
+
+.zen-resources h3{
+	background:url(images/head_resources.gif) no-repeat;
+}
+
+
+
+
+
+
+
+
+
