@@ -1,0 +1,265 @@
+body{
+    margin:0;
+	padding:0;
+	width:2100px;
+	height:1035px;
+	font-family: tahoma, arial, helvetica, sans-serif;
+	font-size:13px;  //small in chrome equals 13px;
+	background:transparent url(images/background.gif) repeat;
+}
+
+a{
+	font-weight:bold;
+	text-decoration:none;
+	color:#776;
+}
+
+.sidebar a:hover{
+	text-decoration:underline;
+}
+
+.preamble p,.supporting p{
+	padding-left:18px;
+	padding-right:12px;
+}
+header {
+	position:absolute;
+	top:0;
+	left:0;
+	width:2100px;
+	height:126px;
+	background:transparent url(images/headerBack.jpg) repeat-x;
+}
+
+
+.page-wrapper{
+	margin-top:126px;
+	height:301px;
+	background:transparent url(images/bodyBack.jpg) repeat-x 0 0;
+}
+.intro h1{
+	position:absolute;
+	top:0;
+	left:0;
+	width:1438px;
+	height:126px;
+	margin-top:0;
+	background:transparent url(images/header.jpg) no-repeat;
+	text-indent:100%;
+	white-space:nowrap;
+	overflow:hidden;
+}
+
+.summary{
+	position:absolute;
+	left:15px;
+	top:425px;
+	color:#776;
+	width:310px;
+	font-weight:bold;
+}
+.preamble {
+	position:absolute;
+	top:130px;
+	left:370px;
+	width:250px;
+	background: #f2f4ee;
+	background: transparent url(images/sectionBack_main.png) repeat-y top right;
+}
+
+
+.preamble p:last-child,.explanation p:last-child,.participation p:last-child,.benefits  p:last-child,.requirements p:last-child{
+	margin-bottom:-5px;
+	padding-bottom:18px;
+	background: transparent url(images/sectionBack_foot.png) no-repeat bottom right;
+}
+
+.preamble h3{
+	margin-top:0;
+	height:86px;
+	text-indent:100%;
+	white-space:nowrap;
+	overflow:hidden;
+	background:url(images/title_preamble.jpg) no-repeat;
+	
+}
+.explanation {
+	position:absolute;
+	top:130px;
+	left:680px;
+	width:250px;
+	background:#f2f4ee;
+	background:transparent url(images/sectionBack_main.png) repeat-y top right;
+}
+
+.participation {
+	position:absolute;
+	top:130px;
+	left:980px;
+	width:250px;
+	background:#f2f4ee;
+	background:transparent url(images/sectionBack_main.png) repeat-y top right;
+}
+
+.benefits {
+	position:absolute;
+	top:130px;
+	left:1280px;
+	width:250px;
+	background:#f2f4ee;
+	background:transparent url(images/sectionBack_main.png) repeat-y top right;
+}
+
+.requirements {
+	position:absolute;
+	top:130px;
+	left:1580px;
+	width:250px;
+	background:#f2f4ee;
+	background: transparent url(images/sectionBack_main.png) repeat-y top right;
+}
+
+.explanation h3,.participation h3,.benefits  h3,.requirements h3{
+	margin-top:0;
+	height:86px;
+	text-indent:100%;
+	white-space:nowrap;
+	overflow:hidden;
+}
+
+.explanation h3{
+	background:url(images/title_about.jpg) no-repeat;
+}
+
+.participation h3{
+	background:url(images/title_participation.jpg) no-repeat;
+}
+
+.benefits  h3{
+	background:url(images/title_benefits.jpg) no-repeat;
+}
+
+.requirements h3{
+	background:url(images/title_requirements.jpg) no-repeat;
+}
+
+
+.sidebar ul{
+	margin-left:5px;
+	margin-right:8px;
+	padding-left:5px;
+}
+
+.sidebar li{
+	margin-left:5px;
+	margin-right:5px;
+	padding:4px 0 4px 0;
+	list-style:none;
+	border-bottom:1px solid #776;
+}
+
+
+.design-selection ul,.design-archives ul,.zen-resources ul{
+	display:none;
+}
+
+.design-selection:hover ul{
+	display:block;
+	border: 1px solid #776;
+	background: url(images/drop_background.png) repeat;
+}
+
+.design-archives:hover ul{
+	display:block;
+	border: 1px solid #776;
+	background: url(images/drop_background.png) repeat;
+}
+
+.zen-resources:hover ul{
+	display:block;
+	border: 1px solid #776;
+	background: url(images/drop_background.png) repeat;
+}
+
+.design-selection{
+	position:absolute;
+	top:75px;
+	left:750px;
+	width:153px;;
+}
+
+.design-selection a.design-name{
+	display:block;
+}
+
+.design-archives{
+	position:absolute;
+	top:75px;
+	left:905px;
+	width:153px;
+}
+
+.zen-resources{
+	position:absolute;
+	top:75px;
+	left:1055px;
+	width:153px;
+}
+
+.design-selection h3,.design-archives h3,.zen-resources  h3{
+	display:block;
+	width:153px;
+	margin-top:0;
+	height:36px;
+	text-indent:100%;
+	white-space:nowrap;
+	overflow:hidden;
+}
+
+.design-selection  h3{
+	background:url(images/drop_lselect.png) no-repeat;
+}
+
+.design-archives h3{
+	background:url(images/drop_archives.png) no-repeat;
+}
+
+.zen-resources  h3{
+	background:url(images/drop_resources.png) no-repeat;
+}
+
+
+.sidebar a.design-name{
+	color:#998;
+}
+footer{
+	position:absolute;
+	top:130x;
+	left:1880px;
+}
+
+footer a{
+	display:block;
+	font-size:13px;
+	text-decoration:none;
+	padding-top:13px;
+	padding-bottom:13px;
+	width:42px;
+	text-align:center;
+	color:#776;
+	background:transparent url(images/footer_back.png) no-repeat;
+}
+
+footer a:hover{
+	background:transparent url(images/footer_back_hover.png) no-repeat;
+}
+
+.extra1{
+	position:absolute;
+	top:126px;
+	left:0;
+	height:301px;
+	width:352px;
+	content:'';
+	background:transparent url(images/flower.jpg) no-repeat;
+}
